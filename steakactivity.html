@@ -8,29 +8,25 @@
 </head>
 <body>
     <script>type="text/javascript"
-    
-    let bornYear=prompt("What year were you born?");
-
-    if(bornYear>=1997){
-        document.write("Here’s a Steak Sandwich!");
-    }
-    else{
-        document.write("No Sake for you!");
-    }
-    
-   
-
-    //////////////
-    let steak=confirm("Here’s a Steak Sandwich!");
+    let steak=confirm("What year were you born?");
 
     if(steak){
-        document.write("");
+        document.write("Here’s a Steak Sandwich!");
     }
 
     else{
         document.write("Here’s a Tofu Stir-Fry!");
     }
     
+    //////////////
+    let bornYear=prompt("What year were you born?");
+
+    if(bornYear<=1997){
+        document.write("Here’s a Steak Sandwich!");
+    }
+    else{
+        document.write("No Sake for you!");
+    }
     </script>
 
     
